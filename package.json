@@ -1,0 +1,18 @@
+{
+  "name": "pmr-email-server",
+  "version": "1.0.0",
+  "description": "SMTP Email Server for PMR System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
